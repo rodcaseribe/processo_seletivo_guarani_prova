@@ -1,0 +1,103 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  width: 500px;
+}
+
+.form-group input {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background-color: #292929;
+  color: #eee;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  outline: 1px solid 444;
+}
+
+.form-group input::placeholder {
+  color: #999;
+}
+
+.form-group .input-error {
+  outline: 1px solid rgb(255, 72, 72);
+}
+
+.form-group .error-message {
+  color: rgb(255, 72, 72) !important;
+  font-size: 0.75rem !important;
+  margin-top: 8px !important;
+}
+
+.form-group button {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: #eee;
+  background-color: #49a1b8;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-top: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: all 500ms ease;
+}
+
+.form-group button:hover {
+  cursor: pointer;
+  background-color: #61dbfb;
+}
+
+.classeErrorMessage{
+  color:red;
+  
+}
+
+.classErroMessageOcult{
+  display: none !important;
+}
